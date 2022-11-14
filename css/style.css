@@ -1,0 +1,96 @@
+@import 'animate.css';
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.text-1{
+position: relative;
+top: 100px;
+left: 50px;
+font-weight: 400;
+}
+nav{
+    z-index: 999;
+}
+.imgheder{
+
+    
+    
+}
+
+.seeProuduct{
+    font-size: 34px;
+    position:absolute;
+    top:370px;
+    text-align: center;
+    
+}
+.seeProuduct p {
+    color:#fff0;
+}
+.row{
+    margin: 0 20px ;
+    padding: 40px;
+}
+.imgsec1{
+width: 100%;
+bottom: 100px;
+/* overflow: hidden; */
+
+}
+.seeProuduct h2{
+    color:rgb(17, 17, 17);
+    font-weight: 900;
+ }
+ div#navbarSupportedContent {
+    font-size: 18px;
+}
+a.nav-link.homenav {
+    color: black;
+    border-bottom: 1px solid;
+}
+
+ .section3{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px; 
+   background-color: rgba(192, 192, 186, 0.247);
+}
+.section3 i {
+    font-size: 35px;
+    padding-right:10px ;
+}
+button{
+    transition: 0.5s;
+    
+}
+ button:hover{
+    transform: translateY(-10px);
+}
+.textcard{
+    position: relative;
+    top: 1000px;
+    z-index: 9999;
+    text-align: center;
+}
+.text-upp{
+    text-align: center;
+    margin: 100px 10px;
+    font-size: 40px;
+}
+img.imgsec1.animate__animated.animate__fadeInTopRight.opacity-15:hover{
+opacity: 1;}
+.cardabout{
+    border-radius: 50% ;
+}
